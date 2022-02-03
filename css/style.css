@@ -1,0 +1,125 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+ h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  text-shadow: 6px 6px 6px rgb(49, 49, 49);
+  padding-top: 178px;
+  padding-left: 117px;
+}
+
+.container {
+  height: 500px;
+  background-size: cover;
+}
+
+.button {
+  font-family: 'Comfortaa', cursive;
+  padding: 20px;
+  background-color: rgb(71, 163, 75);
+  color: white;
+  transition: 0.5s;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 126px;
+
+}
+
+.button:hover {
+  background-color: rgb(38, 83, 41);
+}
+
+.text {
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  padding-left: 123px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.how-it-works {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  box-shadow: 3px 3px 3px 3px rgb(145, 145, 145);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px 10px 10px;
+
+}
+
+.card img {
+  width: 100%
+}
+
+footer {
+  background-color: rgb(16, 26, 48);
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.fab {
+  font-size: 30px;
+}
